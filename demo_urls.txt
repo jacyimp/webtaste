@@ -1,0 +1,11 @@
+# A small hand-picked smoke-test list, not a popularity ranking.
+python.org
+rust-lang.org
+golang.org
+symfony.com
+developer.mozilla.org
+wikipedia.org
+github.com
+cloudflare.com
+stripe.com
+mozilla.org

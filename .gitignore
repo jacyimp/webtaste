@@ -1,0 +1,50 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local datasets and capture/rating outputs
+/data/
+/demo/
+/another_dataset/
+**/screenshots/
+**/rated/
+**/embedding_cache/
+**/dataset.sqlite3*
+
+# Trained models and evaluation outputs
+/models*/
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+/predictions.csv
+/unrated_predictions.csv
+**/*_predictions.csv
+
+# Downloaded lists, packaged deliverables, and temporary files
+*.zip
+*.tmp
+*.part.png
+
+# Logs and local configuration
+*.log
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
